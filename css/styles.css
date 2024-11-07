@@ -544,8 +544,8 @@ flex-wrap: wrap;
 
 .footer__center-side {
   display: flex;
-  justify-content: center;
   padding-bottom: 40px;
+  padding-left: 850px;
 
 }
 
@@ -565,9 +565,13 @@ flex-wrap: wrap;
 }
 
 .footer__address-text {
-
-  text-decoration: none;
+  font-family: "Alegreya Sans sc", serif;
   font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+ 
 }
 
 .footer__contact-list {
