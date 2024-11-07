@@ -536,16 +536,22 @@ body {
   top: 2668px;
 }
 
-.footer__left-side {
+.footer__center-side {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding-bottom: 20px;
-  padding-left: 200px;
+  padding right: 300px;
 }
 
+
+
 .footer__logo {
-  padding bottom: 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding left: 300px ;
+
 }
 
 .footer__address {
@@ -553,9 +559,11 @@ body {
   list-style: none;
   padding-top: 25px;
   padding-bottom: 15px;
+  padding-left: 5px;
 }
 
 .footer__address-text {
+
   text-decoration: none;
   font-style: normal;
 }
