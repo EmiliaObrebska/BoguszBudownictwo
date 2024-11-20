@@ -131,7 +131,7 @@ body {
   position: center;
   left: 0;
   display: block;
-  width: 75px;
+  width: 105px;
   height: 2px;
   background-color: var(--color-primary);
   border-radius: 2px;
@@ -236,54 +236,60 @@ body {
   color: var(--color-white);
 }
 
-.advantages {
-  padding: 94px 0 47px 0;
+.realizacje {
+  padding: 5px 0 47px 0;
 }
 
-.advantages__container {
+.realizacje__container {
 }
 
-.advantages__list {
+.realizacje__main_title{
+  font-family: "Alegreya Sans sc", serif;
+  font-weight: 500;
+  font-style:normal;
+  font-size: 40px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--color-primary);
+  margin-bottom: 10px;
+
   display: flex;
-  justify-content: space-between;
+ 
   gap: 30px;
   list-style: none;
+  padding-left: 450px;
+  padding-top: 15px;
+
+
+}
+.realizacje__list {
+  display:list-item;
+  gap: 30px;
+  list-style-type: none;
+
 }
 
-.advantages__list-item {
+.realizacje__list-item {
   width: 270px;
 }
 
-.advantages__figure {
-  width: 100%;
-}
-
-.advantages__pic-wrap {
-  display: flex;
-  justify-content: center;
-  background-color: var(--color-lorem);
-  border-radius: 4px;
-  padding: 25px 0 25px 0;
-  margin-bottom: 30px;
-}
-
-.advantages__art {
-}
-
-.advantages__title {
-  font-family: "Alegreya Sans", serif;
+.realizacje__title {
+  font-family: "Alegreya Sans sc", serif;
   font-weight: 500;
-  font-style: normal;
+  font-style:normal;
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--color-text);
+  color: var(--color-primary);
   margin-bottom: 10px;
+  padding-top: 5px;
 }
 
-.advantages__text {
+.realizacje__text {
   font-family: "Alegreya Sans", serif;
   font-style: normal;
   font-weight: 500;
