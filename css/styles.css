@@ -282,7 +282,7 @@ body {
   font-family: "Alegreya Sans sc", serif;
   font-weight: 500;
   font-style:normal;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   text-transform:none;
@@ -290,10 +290,11 @@ body {
   color: var(--color-primary);
   margin-bottom: 10px;
   padding-top: 5px;
-  text-wrap:nowrap;
+  text-wrap: nowrap;
 }
 
-.realizacje__text {
+
+  .realizacje__text {
   font-family: "Alegreya Sans", serif;
   font-style: normal;
   font-weight: 500;
@@ -305,6 +306,21 @@ body {
   text-wrap:nowrap;
  
 }
+
+.realizacje__text_info {
+  font-family: "Alegreya Sans sc", serif;
+  font-style:italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.25em;
+  color: var(--color-dark);
+  text-wrap:nowrap;
+ 
+}
+
+
 
 .tasks {
   padding: 94px 0 47px 0;
