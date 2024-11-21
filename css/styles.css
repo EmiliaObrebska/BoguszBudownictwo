@@ -265,14 +265,17 @@ body {
 
 }
 .realizacje__list {
-  display:flex;
-  gap: 60px;
-  list-style-type: none;
+  display:inline-block;
+  list-style: none;
+  gap: 200px;
+ 
 
 }
 
 .realizacje__list-item {
   width: 270px;
+  padding-bottom: 25px;
+
 }
 
 .realizacje__title {
@@ -287,6 +290,7 @@ body {
   color: var(--color-primary);
   margin-bottom: 10px;
   padding-top: 5px;
+  text-wrap:nowrap;
 }
 
 .realizacje__text {
@@ -298,6 +302,8 @@ body {
 
   letter-spacing: 0.05em;
   color: var(--color-dark);
+  text-wrap:nowrap;
+ 
 }
 
 .tasks {
