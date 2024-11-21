@@ -243,7 +243,7 @@ body {
 .realizacje__container {
 }
 
-.realizacje__main_title{
+.realizacje__main_title {
   font-family: "Alegreya Sans sc", serif;
   font-weight: 500;
   font-style:normal;
@@ -265,8 +265,8 @@ body {
 
 }
 .realizacje__list {
-  display:list-item;
-  gap: 30px;
+  display:flex;
+  gap: 60px;
   list-style-type: none;
 
 }
@@ -281,8 +281,8 @@ body {
   font-style:normal;
   font-size: 20px;
   line-height: 1.15;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-transform:none;
 
   color: var(--color-primary);
   margin-bottom: 10px;
@@ -296,7 +296,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
 
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   color: var(--color-dark);
 }
 
